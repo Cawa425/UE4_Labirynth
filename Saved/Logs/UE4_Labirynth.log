@@ -1774,3 +1774,520 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.11-16.23.48:256][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Door]
 [2021.07.11-16.23.48:289][867]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/Door_Auto642967A034F6BB7CC31D55FB91FA714A8.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Saved/Autosaves/Game/StarterContent/Blueprints/Door_Auto6.uasset'
 [2021.07.11-16.23.48:301][867]LogFileHelpers: Auto-saving content packages took 0.098
+[2021.07.11-16.29.26:154][126]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door)
+[2021.07.11-16.32.11:637][400]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.32.11:637][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.34.02:048][601]BlueprintLog: New page: Compile Door
+[2021.07.11-16.34.02:170][601]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2021.07.11-16.34.03:100][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.34.03:131][634]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorAA05A0F546AE1E089FD33FB2DFE121A9.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.34.03:175][634]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.34.03:175][634]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.34.05:186][809]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.34.05:196][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.34.05:196][809]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:34:05)
+[2021.07.11-16.34.05:230][809]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.34.05:257][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027151s)
+[2021.07.11-16.34.05:259][809]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.34.05:259][809]LogPlayLevel: PIE: World Init took: (0.001926s)
+[2021.07.11-16.34.05:259][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029358s)
+[2021.07.11-16.34.05:298][809]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2021.07.11-16.34.05:301][809]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.34.05:301][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.34.05:301][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.34.05:302][809]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.34.05:302][809]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.34.05:324][809]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.34.05:324][809]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.34.05:347][809]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.34.05:348][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.34.05:348][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.34.05:348][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.34.05:349][809]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.34.05:349][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.34.05:349][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.34.05:371][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.34.05:371][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.34.05:371][809]LogInit: FAudioDevice initialized.
+[2021.07.11-16.34.05:371][809]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.34.05:389][809]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.34.05:394][809]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.34.05
+[2021.07.11-16.34.05:395][809]LogWorld: Bringing up level for play took: 0.005015
+[2021.07.11-16.34.05:396][809]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.07.11-16.34.05:398][809]PIE: Server logged in
+[2021.07.11-16.34.05:399][809]PIE: Play in editor total start time 0,205 seconds.
+[2021.07.11-16.34.17:983][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.34.17:984][898]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.34.17:984][898]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.34.17:985][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.34.17:993][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.34.18:012][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.34.18:044][898]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.34.18:044][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.34.18:046][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.34.18:072][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.34.18:078][898]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.07.11-16.34.18:176][899]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.07.11-16.34.20:672][ 47]BlueprintLog: New page: Compile Door
+[2021.07.11-16.34.20:761][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2021.07.11-16.34.21:057][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.34.21:088][ 54]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorAC0C43694D219D240DA10B8C5F6D16E2.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.34.21:106][ 54]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.34.21:106][ 54]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.34.23:175][235]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.34.23:184][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.34.23:184][235]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:34:23)
+[2021.07.11-16.34.23:210][235]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.34.23:229][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019235s)
+[2021.07.11-16.34.23:231][235]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.34.23:232][235]LogPlayLevel: PIE: World Init took: (0.002110s)
+[2021.07.11-16.34.23:232][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021635s)
+[2021.07.11-16.34.23:270][235]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2021.07.11-16.34.23:272][235]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.34.23:272][235]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.34.23:272][235]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.34.23:273][235]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.34.23:273][235]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.34.23:298][235]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.34.23:298][235]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.34.23:319][235]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.34.23:320][235]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.34.23:320][235]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.34.23:320][235]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.34.23:320][235]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.34.23:320][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.34.23:320][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.34.23:343][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.34.23:343][235]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.34.23:343][235]LogInit: FAudioDevice initialized.
+[2021.07.11-16.34.23:343][235]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.34.23:350][235]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.34.23:355][235]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.34.23
+[2021.07.11-16.34.23:356][235]LogWorld: Bringing up level for play took: 0.004628
+[2021.07.11-16.34.23:356][235]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.07.11-16.34.23:359][235]PIE: Server logged in
+[2021.07.11-16.34.23:360][235]PIE: Play in editor total start time 0,177 seconds.
+[2021.07.11-16.34.33:762][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.34.33:763][139]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.34.33:763][139]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.34.33:764][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.34.33:775][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.34.33:793][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.34.33:825][139]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.34.33:825][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.34.33:827][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.34.33:852][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.34.33:858][139]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2021.07.11-16.34.33:959][140]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.07.11-16.35.04:505][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.07.11-16.35.04:549][584]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/ThirdPersonExampleMap_Auto79A3ABDC64082F0AF7556C2B99B03D864.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2021.07.11-16.35.04:551][584]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.082
+[2021.07.11-16.35.04:551][584]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.082
+[2021.07.11-16.36.09:677][399]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
+[2021.07.11-16.36.22:271][839]LogRenderer: Reallocating scene render targets to support 1016x608 Format 10 NumSamples 1 (Frame:442).
+[2021.07.11-16.38.41:864][528]BlueprintLog: New page: Compile Door
+[2021.07.11-16.38.42:326][528]LogUObjectHash: Compacting FUObjectHashTables data took   9.22ms
+[2021.07.11-16.38.53:477][967]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:478][967]LogPhysics: Warning: Scale for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_2.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.125 Z=4.365
+[2021.07.11-16.38.53:478][967]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:496][968]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:513][969]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:530][970]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:547][971]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:564][972]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:582][973]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:599][974]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:617][975]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:635][976]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:652][977]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:669][978]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:686][979]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:703][980]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:720][981]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:737][982]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:757][983]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:775][984]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:793][985]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:810][986]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:828][987]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:845][988]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:862][989]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:879][990]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:896][991]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:913][992]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:930][993]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:947][994]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.53:965][995]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:358][ 80]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:375][ 81]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:393][ 82]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:415][ 83]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:436][ 84]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:455][ 85]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:472][ 86]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:491][ 87]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:508][ 88]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:529][ 89]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:547][ 90]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:564][ 91]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:582][ 92]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:599][ 93]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:617][ 94]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:634][ 95]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:652][ 96]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:669][ 97]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:686][ 98]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.55:704][ 99]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:321][255]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:322][255]LogPhysics: Warning: Scale for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_2.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=2.125 Z=4.365
+[2021.07.11-16.38.58:323][255]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:341][256]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:359][257]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:377][258]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:394][259]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:416][260]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:434][261]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:453][262]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:471][263]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:488][264]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:506][265]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:523][266]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:541][267]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:558][268]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:575][269]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:593][270]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:611][271]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:628][272]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:649][273]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:667][274]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:684][275]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:702][276]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:719][277]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:738][278]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:756][279]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:775][280]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:793][281]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:811][282]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.38.58:831][283]LogPhysics: Warning: Scale for /Engine/Transient.World_5:PersistentLevel.Door_C_0.Collider has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.250 Z=3.000
+[2021.07.11-16.39.25:151][770]BlueprintLog: New page: Compile Door
+[2021.07.11-16.39.25:473][770]LogUObjectHash: Compacting FUObjectHashTables data took  18.23ms
+[2021.07.11-16.39.25:673][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.39.25:704][771]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorAE2D43BF4C5ABFC578D4809651352094.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.39.25:723][771]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.39.25:723][771]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.39.26:772][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.39.26:798][827]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/Door3CEF0946405CF6C866AC6AA2C5A69DDE.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.39.26:821][827]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.39.26:821][827]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.39.29:871][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.39.29:880][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.39.29:881][ 25]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:39:29)
+[2021.07.11-16.39.29:920][ 25]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.39.29:944][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024054s)
+[2021.07.11-16.39.29:946][ 25]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.39.29:947][ 25]LogPlayLevel: PIE: World Init took: (0.002312s)
+[2021.07.11-16.39.29:947][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026749s)
+[2021.07.11-16.39.29:985][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2021.07.11-16.39.29:989][ 25]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.39.29:989][ 25]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.39.29:989][ 25]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.39.29:990][ 25]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.39.29:990][ 25]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.39.29:998][ 25]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.39.29:998][ 25]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.39.30:021][ 25]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.39.30:021][ 25]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.39.30:021][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.39.30:021][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.39.30:022][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.39.30:022][ 25]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.39.30:022][ 25]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.39.30:045][ 25]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.39.30:045][ 25]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.39.30:045][ 25]LogInit: FAudioDevice initialized.
+[2021.07.11-16.39.30:045][ 25]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.39.30:054][ 25]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.39.30:059][ 25]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.39.30
+[2021.07.11-16.39.30:060][ 25]LogWorld: Bringing up level for play took: 0.004968
+[2021.07.11-16.39.30:061][ 25]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.07.11-16.39.30:063][ 25]PIE: Server logged in
+[2021.07.11-16.39.30:064][ 25]PIE: Play in editor total start time 0,186 seconds.
+[2021.07.11-16.39.35:782][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.39.35:782][692]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.39.35:782][692]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.39.35:783][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.39.35:798][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.39.35:816][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.39.35:847][692]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.39.35:848][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.39.35:849][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.39.35:874][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.39.35:880][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.07.11-16.39.35:926][693]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.07.11-16.41.33:203][ 27]LogSlate: Window 'Save Asset As' being destroyed
+[2021.07.11-16.41.35:950][ 27]LogSlate: Window 'Pick Physical Material Class' being destroyed
+[2021.07.11-16.41.38:338][149]BlueprintLog: New page: Compile Door
+[2021.07.11-16.41.38:439][149]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2021.07.11-16.41.38:737][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.41.38:771][154]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/Door4676E45944112683CB74D49D361B2FE8.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.41.38:788][154]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.41.38:788][154]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.41.41:399][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2021.07.11-16.41.42:086][374]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.41.42:095][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.41.42:096][374]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:41:42)
+[2021.07.11-16.41.42:120][374]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.41.42:140][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020157s)
+[2021.07.11-16.41.42:142][374]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.41.42:142][374]LogPlayLevel: PIE: World Init took: (0.001783s)
+[2021.07.11-16.41.42:142][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022196s)
+[2021.07.11-16.41.42:179][374]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2021.07.11-16.41.42:182][374]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.07.11-16.41.42:182][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.41.42:183][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.41.42:183][374]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.41.42:183][374]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.41.42:192][374]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.41.42:192][374]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.41.42:214][374]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.41.42:214][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.41.42:214][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.41.42:215][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.41.42:215][374]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.41.42:215][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.41.42:215][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.41.42:237][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.41.42:237][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.41.42:237][374]LogInit: FAudioDevice initialized.
+[2021.07.11-16.41.42:237][374]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.41.42:249][374]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.41.42:254][374]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.41.42
+[2021.07.11-16.41.42:255][374]LogWorld: Bringing up level for play took: 0.004631
+[2021.07.11-16.41.42:255][374]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.07.11-16.41.42:258][374]PIE: Server logged in
+[2021.07.11-16.41.42:259][374]PIE: Play in editor total start time 0,166 seconds.
+[2021.07.11-16.41.52:263][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.41.52:263][559]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.41.52:263][559]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.41.52:264][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.41.52:277][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.41.52:357][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.41.52:389][559]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.41.52:389][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.41.52:391][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.41.52:416][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.41.52:422][559]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.07.11-16.41.52:478][560]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.07.11-16.42.07:522][324]BlueprintLog: New page: Compile Door
+[2021.07.11-16.42.07:605][324]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2021.07.11-16.42.19:291][960]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.42.19:300][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.42.19:300][960]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:42:19)
+[2021.07.11-16.42.19:300][960]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.42.19:321][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020478s)
+[2021.07.11-16.42.19:322][960]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.42.19:323][960]LogPlayLevel: PIE: World Init took: (0.001766s)
+[2021.07.11-16.42.19:323][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022477s)
+[2021.07.11-16.42.19:359][960]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2021.07.11-16.42.19:364][960]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.42.19:364][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.42.19:364][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.42.19:365][960]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.42.19:365][960]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.42.19:384][960]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.42.19:384][960]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.42.19:405][960]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.42.19:406][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.42.19:406][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.42.19:406][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.42.19:406][960]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.42.19:406][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.42.19:406][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.42.19:428][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.42.19:428][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.42.19:428][960]LogInit: FAudioDevice initialized.
+[2021.07.11-16.42.19:428][960]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.42.19:435][960]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.42.19:440][960]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.42.19
+[2021.07.11-16.42.19:441][960]LogWorld: Bringing up level for play took: 0.004702
+[2021.07.11-16.42.19:441][960]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.07.11-16.42.19:444][960]PIE: Server logged in
+[2021.07.11-16.42.19:445][960]PIE: Play in editor total start time 0,148 seconds.
+[2021.07.11-16.42.29:472][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.42.29:472][807]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.42.29:472][807]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.42.29:473][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.42.29:486][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.42.29:522][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.42.29:554][807]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.42.29:554][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.42.29:556][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.42.29:581][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.42.29:587][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.07.11-16.42.29:645][808]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.07.11-16.42.38:821][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.42.38:853][225]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorCEFB777A489A36928FD989850A0CE1BA.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.42.38:873][225]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.42.38:874][225]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.42.40:387][310]BlueprintLog: New page: Compile Door
+[2021.07.11-16.42.40:464][310]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2021.07.11-16.42.43:290][486]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.42.43:300][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.42.43:300][486]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:42:43)
+[2021.07.11-16.42.43:300][486]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.42.43:320][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020290s)
+[2021.07.11-16.42.43:322][486]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.42.43:322][486]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2021.07.11-16.42.43:322][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022238s)
+[2021.07.11-16.42.43:359][486]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2021.07.11-16.42.43:362][486]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.42.43:362][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.42.43:362][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.42.43:363][486]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.42.43:363][486]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.42.43:371][486]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.42.43:371][486]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.42.43:392][486]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.42.43:393][486]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.42.43:393][486]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.42.43:393][486]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.42.43:393][486]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.42.43:394][486]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.42.43:394][486]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.42.43:416][486]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.42.43:416][486]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.42.43:416][486]LogInit: FAudioDevice initialized.
+[2021.07.11-16.42.43:416][486]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.42.43:428][486]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.42.43:433][486]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.42.43
+[2021.07.11-16.42.43:434][486]LogWorld: Bringing up level for play took: 0.004787
+[2021.07.11-16.42.43:434][486]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.07.11-16.42.43:437][486]PIE: Server logged in
+[2021.07.11-16.42.43:438][486]PIE: Play in editor total start time 0,14 seconds.
+[2021.07.11-16.42.56:962][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.42.56:962][ 93]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.42.56:963][ 93]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.42.56:963][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.42.56:975][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.42.57:009][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.42.57:042][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.42.57:042][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.42.57:044][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.42.57:069][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.42.57:075][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.07.11-16.42.57:130][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.07.11-16.43.02:993][366]LogEditorTransaction: Undo Change Collision Profile
+[2021.07.11-16.43.03:367][367]LogEditorTransaction: Undo Edit Phys Material Override
+[2021.07.11-16.43.03:791][376]LogEditorTransaction: Undo Set Node Enabled State
+[2021.07.11-16.43.04:094][377]LogEditorTransaction: Undo Clicking on Actors
+[2021.07.11-16.43.09:089][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.43.09:121][624]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorFA1D2B39435FE7CD0029B6A434655E58.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.43.09:138][624]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.43.09:139][624]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.43.15:492][974]LogEditorTransaction: Undo Modify Component(s)
+[2021.07.11-16.43.16:925][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Door" FILE="../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset" SILENT=true
+[2021.07.11-16.43.16:958][ 29]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/DoorCE761B6D4C3D123F98CBC682804E7536.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/StarterContent/Blueprints/Door.uasset'
+[2021.07.11-16.43.16:986][ 29]AssetCheck: New page: Asset Save: Door
+[2021.07.11-16.43.16:986][ 29]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Blueprints/Door.Door
+[2021.07.11-16.43.17:347][ 47]BlueprintLog: New page: Compile Door
+[2021.07.11-16.43.17:449][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2021.07.11-16.43.23:079][379]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.11-16.43.23:088][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-16.43.23:089][379]PIE: New page: PIE session: ThirdPersonExampleMap (11 июл. 2021 г., 22:43:23)
+[2021.07.11-16.43.23:120][379]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.43.23:140][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019413s)
+[2021.07.11-16.43.23:141][379]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.11-16.43.23:142][379]LogPlayLevel: PIE: World Init took: (0.001955s)
+[2021.07.11-16.43.23:142][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021658s)
+[2021.07.11-16.43.23:180][379]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2021.07.11-16.43.23:184][379]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-16.43.23:184][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-16.43.23:184][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-16.43.23:185][379]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-16.43.23:185][379]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-16.43.23:194][379]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-16.43.23:194][379]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-16.43.23:216][379]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2021.07.11-16.43.23:217][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-16.43.23:217][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-16.43.23:217][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-16.43.23:217][379]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-16.43.23:217][379]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.11-16.43.23:217][379]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.11-16.43.23:240][379]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.11-16.43.23:240][379]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.11-16.43.23:240][379]LogInit: FAudioDevice initialized.
+[2021.07.11-16.43.23:240][379]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonExampleMap'.
+[2021.07.11-16.43.23:252][379]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.07.11-16.43.23:257][379]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.07.11-19.43.23
+[2021.07.11-16.43.23:257][379]LogWorld: Bringing up level for play took: 0.004671
+[2021.07.11-16.43.23:258][379]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.07.11-16.43.23:260][379]PIE: Server logged in
+[2021.07.11-16.43.23:262][379]PIE: Play in editor total start time 0,175 seconds.
+[2021.07.11-16.43.43:972][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.43.43:972][839]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.07.11-16.43.43:973][839]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.43.43:973][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.43.43:987][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-16.43.44:004][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.43.44:036][839]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.11-16.43.44:037][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.43.44:038][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.11-16.43.44:063][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-16.43.44:069][839]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.07.11-16.43.44:118][840]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.07.11-16.43.56:277][348]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2021.07.11-16.43.56:318][348]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/ThirdPersonExampleMapC486500543A5DC3709A17A991402C1CD.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.11-16.43.56:600][348]LogSavePackage: Moving '../../../../../../Unreal Projects/UE4_Labirynth/Saved/ThirdPersonExampleMap_BuiltDataF24E5D7E4E0CB783E3902A8B3A68B57F.tmp' to '../../../../../../Unreal Projects/UE4_Labirynth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.11-16.43.56:635][348]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.11-16.43.56:635][348]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.11-16.43.56:635][348]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.11-16.44.02:111][528]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.44.02:111][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-16.44.08:776][962]LogSlate: Window 'Door' being destroyed
+[2021.07.11-16.44.08:783][962]LogSlate: Window 'Door' being destroyed
+[2021.07.11-16.44.08:830][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.07.11-16.44.08:830][962]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-16.44.08:830][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
